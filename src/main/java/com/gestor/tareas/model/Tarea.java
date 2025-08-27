@@ -21,7 +21,7 @@ public class Tarea {
 
     private String titulo;
     /* @Column(columnDefinition = "TEXT"):
-    le indica a JPA que cree la columna descripcion como TEXT en la
+    le indica a JPA que cree la columna descripción como TEXT en la
     base de datos, permitiendo almacenar cadenas de texto más largas
     que el límite por defecto de VARCHAR(255).*/
     @Column(columnDefinition = "TEXT")

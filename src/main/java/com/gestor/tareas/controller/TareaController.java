@@ -34,7 +34,7 @@ public class TareaController {
     @PutMapping("/{id}")
     public ResponseEntity<Tarea> actualizarTarea(@PathVariable Long id, @RequestBody Tarea tarea) {
         return tareaService.actualizarTarea(id, tarea)
-                .map(ResponseEntity::ok)
+                .map(  ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }
 
